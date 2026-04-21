@@ -1,0 +1,5 @@
+/target
+/simulation-wasm/target
+/simulation-wasm/pkg
+/frontend/node_modules
+.DS_Store

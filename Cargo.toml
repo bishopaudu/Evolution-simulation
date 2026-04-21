@@ -1,0 +1,18 @@
+[package]
+name = "evolutionsimulation"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "evolutionsimulation"
+path = "src/lib.rs"
+
+[dependencies]
+rand = "0.8"
+nalgebra = { version = "0.32", features = ["rand-no-std"] }
+
+
+[dev-dependencies]
+approx = "0.4"
+rand_chacha = "0.3"
+test-case = "3.3.1"
