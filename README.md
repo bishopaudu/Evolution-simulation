@@ -12,8 +12,6 @@ Birds (triangles) learn to find food (circles) over generations using a **neural
 
 ## Preview
 
-<video src="assets/preview.mov" controls="controls" muted="muted" width="100%"></video>
-
 > Birds (white triangles) learn to navigate toward food (green circles) over successive generations.
 
 ---
