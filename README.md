@@ -4,11 +4,7 @@ A real-time evolution simulation built with **Rust** and **WebAssembly**, runnin
 
 Birds (triangles) learn to find food (circles) over generations using a **neural network** as their brain and a **genetic algorithm** to evolve and improve their behaviour over time — all without any hard-coded rules.
 
-## Live Demo
 
-> Coming soon
-
----
 
 ## Preview
 
