@@ -12,6 +12,8 @@ Birds (triangles) learn to find food (circles) over generations using a **neural
 
 ## Preview
 
+<video src="assets/preview.mov" controls="controls" muted="muted" width="100%"></video>
+
 > Birds (white triangles) learn to navigate toward food (green circles) over successive generations.
 
 ---
@@ -68,7 +70,7 @@ evolutionsimulation/
 │       └── lib.rs              # Wraps Rust structs with #[wasm_bindgen]
 │                               # so JavaScript can call them
 │
-└── www/                        # JavaScript frontend
+└── frontend/                        # JavaScript frontend
     ├── index.html              # Page layout
     ├── index.js                # Canvas rendering + animation loop
     ├── bootstrap.js            # Loads index.js asynchronously
@@ -153,7 +155,7 @@ wasm-pack build --target bundler
 
 **3. Install frontend dependencies**
 ```bash
-cd ../www
+cd ../frontend
 npm install
 ```
 
